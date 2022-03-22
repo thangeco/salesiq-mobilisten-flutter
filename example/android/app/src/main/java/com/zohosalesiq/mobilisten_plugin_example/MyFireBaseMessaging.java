@@ -1,4 +1,4 @@
-package com.zohosalesiq.mobilisten_plugin_example;
+package com.ecomobi.social_seller;
 
 import com.zohosalesiq.plugin.MobilistenPlugin;
 import com.google.firebase.messaging.FirebaseMessagingService;

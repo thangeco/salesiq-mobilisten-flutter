@@ -26,11 +26,11 @@ class _MyAppState extends State<MyApp> {
       String appKey;
       String accessKey;
       if (io.Platform.isIOS) {
-        appKey = "INSERT_IOS_APP_KEY";
-        accessKey = "INSERT_IOS_ACCESS_KEY";
+        appKey = "8hhDdtzVPkK3p0JbvXsGNkOl5xYjQe4OElCBbak4nkjD2RkK6cgrjwm8kJpA8UaS";
+        accessKey = "6lnfRHTfV53f9%2BxfUa%2FJqkJekVS1jHbXTzozl9ZGYNSso7%2BZovRIHZ5g%2B21nQ6lHhO2WrXUulXvP5LWZv%2B%2F93BjxheJdIADncDxkY17CudfQrrPrwypxjA%2B6dOyEbnahEslX0DSD86aMu6SgJYgi3hPCANC9LnQa";
       } else {
-        appKey = "INSERT_ANDROID_APP_KEY";
-        accessKey = "INSERT_ANDROID_ACCESS_KEY";
+        appKey = "8hhDdtzVPkK3p0JbvXsGNkOl5xYjQe4OElCBbak4nkjD2RkK6cgrjwm8kJpA8UaS";
+        accessKey = "6lnfRHTfV50y2YtYXiNQJPy9SHhcGB7MingOMPAmH%2BQ6EEBmBt319JYCKijKsRfK%2B4Uc4sUS1n0ZCgaTW3XHf8XWSDV648XBorSeItdFuSYPHQKRGhDrYl8IVNLUjW6MTQ7hdEMYTiXZ%2BLDmTflZojnEW61hYJUiOyz%2FtI9F%2Fo4%3D";
       }
       ZohoSalesIQ.init(appKey, accessKey).then((_) {
         // initialization successful

@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zohosalesiq.mobilisten_plugin_example">
+    package="com.ecomobi.social_seller">
    <application
         android:label="mobilisten_plugin_example"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name="com.zohosalesiq.mobilisten_plugin_example.MainActivity"
+            android:name=".MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -39,7 +39,7 @@
             android:value="2" />
 
        <service
-           android:name="com.zohosalesiq.mobilisten_plugin_example.MyFireBaseMessaging"
+           android:name=".MyFireBaseMessaging"
            android:exported="false">
            <intent-filter>
                <action android:name="com.google.firebase.MESSAGING_EVENT" />

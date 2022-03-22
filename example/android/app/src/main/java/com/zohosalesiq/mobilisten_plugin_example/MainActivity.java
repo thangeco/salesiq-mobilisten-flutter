@@ -1,4 +1,4 @@
-package com.zohosalesiq.mobilisten_plugin_example;
+package com.ecomobi.social_seller;
 
 import android.os.Bundle;
 
